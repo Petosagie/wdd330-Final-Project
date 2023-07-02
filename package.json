@@ -1,0 +1,14 @@
+{
+  "name": "wdd330-final-project",
+  "version": "1.0.0",
+  "description": "WDD330 Final Project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Osagie Ohenhen petosagie@gmail.com",
+  "dependencies": {
+    "lmdb": "^2.8.2",
+    "parcel": "^2.9.3"
+  }
+}
