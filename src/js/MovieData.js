@@ -1,7 +1,6 @@
 const API_KEY = 'c9e9e1944448c36e4090357a5f423d6c'
 const BASE_URL = `https://api.themoviedb.org/3/` 
 
-
 export default class MovieData {
   constructor() {
     this.imgURL = 'https://image.tmdb.org/t/p/w500'

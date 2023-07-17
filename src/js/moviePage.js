@@ -13,7 +13,7 @@ const movieGenres = await movieData.getGenres()
 
 // Set the title of the page
 const title = document.querySelector('title')
-title.innerText = `Moviesdix | ${movie.title}`
+title.innerText = `Netflax | ${movie.title}`
 
 // Set the main header
 const heading = document.querySelector('.title-heading')
