@@ -44,7 +44,8 @@ export default class MoviesListing {
         genre.appendChild(span)
       })
       const aTag = clone.querySelector('.movie-anchor')
-      aTag.href = `./src/movie-page/index.html?movie=${movie.id}`
+      // aTag.href = `./src/movie-page/index.html?movie=${movie.id}`
+      aTag.href = `/src/movie-page/index.html?movie=${movie.id}`
       parent.appendChild(clone)
     })
   }
