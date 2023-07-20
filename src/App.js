@@ -5,7 +5,7 @@ function Header(mainDiv) {
     const siteName = createElement("a", {
         href: "index.html",
       }, [createElement("h1", {
-        textContent: "NETFLIX",
+        textContent: "MoviesDix",
       })]);
     const favLink = createElement("div", {
 		className: "favorite-box",
