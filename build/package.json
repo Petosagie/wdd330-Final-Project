@@ -1,0 +1,17 @@
+{
+  "name": "wdd330-final-project",
+  "version": "1.0.0",
+  "description": "WDD330 Final Project",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build "
+  },
+  "author": "Osagie Ohenhen petosagie@gmail.com",
+  "dependencies": {
+    "lmdb": "^2.8.2",
+    "pack": "^2.2.0",
+    "parcel": "^2.9.3",
+    "snow": "^0.0.0",
+    "snowpack": "^3.7.1"
+  }
+}
