@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "WDD330 Final Project",
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build "
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Osagie Ohenhen petosagie@gmail.com",
   "dependencies": {
