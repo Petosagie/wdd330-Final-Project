@@ -1,4 +1,4 @@
-// In utils.js file (if that's where the createElement function is defined)
+// Icw utils.js file (if that's where the createElement function is defined)
 
 export function createElement(tag, attributes, children) {
   const element = document.createElement(tag);
