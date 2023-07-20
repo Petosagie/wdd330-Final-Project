@@ -53,7 +53,6 @@ export default class MoviesListing {
     const template = document.querySelector(selector)
     this.isSearch = isSearch
     this.isFavorite = isFavorite
-
     if (!this.isSearch && !this.isFavorite) {
       this.prepareTemplate(this.parentNode, template, this.discoverMovies.results)
     } else if (this.isFavorite) {
@@ -64,16 +63,5 @@ export default class MoviesListing {
       this.searchResults = await this.movieData.getSearchResults(queryString)
       this.prepareTemplate(this.parentNode, template, this.searchResults.results)
     }
-    // Add click listeners to the movie cards
-    this.addCardClickListeners();
-  }
-  addCardClickListeners() {
-    const movieCards = this.parentNode.querySelectorAll('.movie-card');
-    movieCards.forEach(card => {
-      card.addEventListener('click', () => {
-        const movieId = card.getAttribute('data-id');
-        window.location.href = `./src/movie-page/index.html?movie=${movieId}`;
-      });
-    });
   }
 }
